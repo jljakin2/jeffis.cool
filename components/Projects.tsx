@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Projects() {
   return (
-    <section className="flex flex-wrap justify-center items-center gap-16 px-12 py-8 lg:py-20">
+    <section className="flex flex-wrap justify-center items-center gap-16 py-12 px-4 lg:px-16 lg:py-20">
       {cards.map((card) => (
         <Card
           key={card.title}

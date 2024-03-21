@@ -8,8 +8,9 @@ export const cards: CardProps[] = [
     link: "https://jeffbuildstech.com",
   },
   {
-    title: "Emotion Forest",
-    description: "A forest of emotions",
+    title: ":❓ Yesteryear",
+    description:
+      "We use things every day which feel like they've always existed. Do you think you guess when they were invented?",
     link: "#",
   },
   {
