@@ -9,7 +9,8 @@ export default function Projects() {
           key={card.title}
           title={card.title}
           description={card.description}
-          isProfitable={card.isProfitable}
+          badge={card.badge}
+          link={card.link}
         />
       ))}
     </section>

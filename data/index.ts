@@ -1,33 +1,40 @@
-export const cards = [
+import { CardProps } from "@/types";
+
+export const cards: CardProps[] = [
   {
-    title: "Emotion Forest",
+    title: "🌲 Emotion Forest",
     description: "A forest of emotions",
-    isProfitable: true,
+    link: "https://jeffbuildstech.com",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
+    link: "#",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
+    link: "#",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
-    isProfitable: true,
+    link: "#",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
+    link: "#",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
-    isProfitable: true,
+    // badge: "new",
+    link: "#",
   },
   {
     title: "Emotion Forest",
     description: "A forest of emotions",
+    link: "#",
   },
 ];
