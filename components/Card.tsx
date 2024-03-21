@@ -7,21 +7,27 @@ export default function Card({
   link,
 }: CardProps) {
   return (
-    <a href={link}>
-      <div className="card w-96 bg-base-100 shadow-xl rounded-lg">
+    <a
+      href={link}
+      className="transition duration-300 ease-in-out transform hover:-translate-y-2"
+    >
+      <div className="card w-96 bg-base-100  shadow-xl rounded-lg">
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
-          <p>{description}</p>
+          <p className="text-gray-600">{description}</p>
           {/* <div className="card-actions justify-end">
             <button className="btn btn-primary">Check it out</button>
           </div> */}
         </div>
+
+        {/* If there is a badge */}
         {badge && (
           <div className="badge badge-primary rounded-lg absolute -right-2 top-2">
             {badge.toUpperCase()}
           </div>
         )}
       </div>
+      {/* ==================================== */}
     </a>
   );
 }
