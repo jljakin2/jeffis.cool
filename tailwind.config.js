@@ -11,6 +11,10 @@ module.exports = {
         gradient:
           "linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82)",
       },
+      colors: {
+        "antique-white": "AntiqueWhite",
+        "custom-dark": "#333",
+      },
       animation: {
         opacity: "opacity 0.25s ease-in-out",
         appearFromRight: "appearFromRight 300ms ease-in-out",
@@ -54,6 +58,10 @@ module.exports = {
           "50%": { backgroundPosition: "100% 50%" },
           "100%": { backgroundPosition: "0% 50%" },
         },
+      },
+      boxShadow: {
+        "custom-inset": "0px 0px 12px 0px rgba(0, 0, 0, 0.5) inset",
+        "custom-outer": "0 7px 5px -3px rgba(0, 0, 0, 0.3)",
       },
     },
   },
